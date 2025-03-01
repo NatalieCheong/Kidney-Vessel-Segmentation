@@ -157,6 +157,7 @@ class KidneyVesselEDA:
         plt.xticks(rotation=45)
         plt.tight_layout()
         plt.show()
+        
 def main():
     # Initialize EDA class with Kaggle dataset path
     kaggle_path = '/kaggle/input/blood-vessel-segmentation'
